@@ -1,4 +1,4 @@
-const numbers = [1,2,3,4,5];
+/*const numbers = [1,2,3,4,5];
 numbers.forEach(element => console.log(element) )
 console.log(numbers)
 
@@ -23,3 +23,11 @@ const newstring = string.reduce(function(valor1,valor2){
 })
 
     console.log(newstring);
+
+*/
+var palabra =["is2" , "sentence4" , "This1", "a3"] ;
+const palabra2 = palabra.substring(0,palabra,length -1);
+palabra.sort(function(a, b) { 
+  return a - b;
+});
+console.log(palabra2);
